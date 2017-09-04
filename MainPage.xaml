@@ -1,0 +1,19 @@
+<Page
+    x:Class="MCP9808.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MCP9808"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="320,230,320,0" TextWrapping="Wrap" Text="Thermal Chamber" VerticalAlignment="Top" Height="67" Width="640" FontSize="48" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor1" HorizontalAlignment="Center" Margin="484,302,484,0" TextWrapping="Wrap" Text="Sensor 1: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor2" HorizontalAlignment="Center" Margin="484,337,484,0" TextWrapping="Wrap" Text="Sensor 2: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor3" HorizontalAlignment="Center" Margin="484,372,484,0" TextWrapping="Wrap" Text="Sensor 3: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor4" HorizontalAlignment="Center" Margin="484,407,484,0" TextWrapping="Wrap" Text="Sensor 4: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor5" HorizontalAlignment="Center" Margin="484,442,484,0" TextWrapping="Wrap" Text="Sensor 5: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Sensor6" HorizontalAlignment="Center" Margin="484,479,484,0" TextWrapping="Wrap" Text="Sensor 6: Initializing..." VerticalAlignment="Top" Width="312" FontSize="26.667" Foreground="#696969" TextAlignment="Center"/>
+    </Grid>
+</Page>
