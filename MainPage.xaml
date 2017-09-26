@@ -1,3 +1,7 @@
+//Hoseok(Alex) Lee
+//This is the xaml file for the Main Page
+//This code builds the GUI for the Raspberry Pi 3
+
 <Page
     x:Class="MCP9808.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
