@@ -1,3 +1,6 @@
+//Hoseok(Alex) Lee
+//This is the portion that will be injected into the Raspberry Pi 3 for temperature reading and sending the data using HTTPGET
+
 using System;
 using System.Collections.Generic;
 using System.IO;
